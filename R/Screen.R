@@ -54,8 +54,7 @@ setMethod(
     if(is.null(obj$getPlates())) {
       jlist <- new(ArrayList)
       jlist$add(new(Long, .jlong(obj$getId())))
-      set <- browse$loadHierarchy(ctx, ScreenData$class,
-                                   jlist, .jnull())
+      set <- browse$getScreens(ctx, jlist)
       it <- set$iterator()
       loaded <- .jrcall(it, method = "next")
     }
