@@ -6,4 +6,5 @@ install.packages("jpeg")
 install.packages("httr")
 install.packages("rJava")
 install.packages("devtools")
+install.packages("https://github.com/ome/rOMERO-gateway/releases/download/v0.4.7/romero.gateway_0.4.7.tar.gz", repos = NULL, type = "source")
 

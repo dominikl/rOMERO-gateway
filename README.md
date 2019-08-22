@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dominikl/rOMERO-gateway/test)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dominikl/rOMERO-gateway/test?urlpath=rstudio)
 
 # OMERO R Gateway
 
